@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>My First Webpage</title>
-  </head>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
 
-  <body>
     <script>
-      console.log("Hello World")
+        function getComputerChoice() {
+            const choice = ["rock", "paper", "scissors"];
+            const random = Math.floor(Math.random() * choice.length);
+            return choice[random]; 
+        }
+
+        console.log(getComputerChoice());
     </script>
-  </body>
+</body>
 </html>
 
