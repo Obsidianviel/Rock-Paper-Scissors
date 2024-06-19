@@ -14,6 +14,20 @@
         }
 
         console.log(getComputerChoice());
+
+        function getHumanChoice() {
+    const text = prompt("What is your choice?");
+    if (text !== "rock" && text !== "paper" && text !== "scissors") {
+        alert("Please choose 'rock', 'paper', or 'scissors'");
+        //return null; // Return null or a specific value to indicate an invalid choice
+            getHumanChoice();
+    }
+    return text; 
+}
+
+      console.log(getHumanChoice());
+
+
     </script>
 </body>
 </html>
