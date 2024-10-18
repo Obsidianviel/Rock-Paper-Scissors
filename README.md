@@ -25,7 +25,7 @@ This is a simple Rock, Paper, Scissors game where you play against the computer.
 
 ## How to Run
 
-1. Click here "https://kommairi.github.io/Rock-Paper-Scissors/" or Open the `index.html` file in a web browser. 
+1. Click here "https://Obsidianviel.github.io/Rock-Paper-Scissors/" or Open the `index.html` file in a web browser. 
 2. Click the buttons to play the game.
 
 
